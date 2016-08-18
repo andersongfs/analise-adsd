@@ -1,0 +1,14 @@
+---
+title: "Projeto de Medição"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+cinco = read.csv(file = "B5PorSegundo.csv")
+vinte = read.csv(file = "B20PorSegundo.csv")
+cinquenta = read.csv(file = "B50PorSegundo.csv")
+
+```
