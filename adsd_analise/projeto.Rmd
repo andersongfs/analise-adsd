@@ -1,0 +1,84 @@
+---
+title: "projeto"
+output: html_document
+---
+```{r}
+library(dplyr, warn.conflicts = FALSE)
+library(ggplot2)
+theme_set(theme_bw())
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+c1 = read.csv(file = "cenario1.csv")
+c2 = read.csv(file = "cenario2.csv")
+c3 = read.csv(file = "cenario3.csv")
+geral = read.csv(file = "geral.csv")
+
+```
+#Nos gráficos de dispersão, quanto mais espalhados os pontos, mais diferentes são os pontos uns dos outros, indicando resultados diferentes.
+##obs: Gosto mais do gráfico sem ser o boxplot, é mais educado só os pontos.
+```{r}
+#Desvios do -tempo em fila- para servidores do cenario 1
+c1_t_fila = c1 %>%
+    select(replication,test,servidor,resultado) %>%
+    filter(test=="Waiting Time")
+  
+ggplot(c1_t_fila, aes(servidor, resultado)) +  
+  geom_point(position = position_jitter(width = .1), alpha = .3) + 
+  labs(title="Dispersão do tempo em fila para cada servidor", x= "Servidor", y="Tempo em Fila(minutos)")
+
+ggplot(c1_t_fila, aes(servidor, resultado) ) +
+  geom_boxplot() +
+  geom_jitter()
+
+
+#Desvios do -tempo em fila- para servidores do cenario 2
+c2_t_fila = c2 %>%
+    select(replication,test,servidor,resultado) %>%
+    filter(test=="Waiting Time")
+  
+ggplot(c2_t_fila, aes(servidor, resultado)) +  
+  geom_point(position = position_jitter(width = .1), alpha = .3) + 
+  labs(title="Dispersão do tempo em fila para cada servidor", x= "Servidor", y="Tempo em Fila(minutos)")
+
+ggplot(c2_t_fila, aes(servidor, resultado) ) +
+  geom_boxplot() +
+  geom_jitter()
+
+#Desvios do -tempo em fila- para servidores do cenario 3
+c3_t_fila = c3 %>%
+    select(replication,test,servidor,resultado) %>%
+    filter(test=="Waiting Time")
+  
+ggplot(c3_t_fila, aes(servidor, resultado)) +  
+  geom_point(position = position_jitter(width = .1), alpha = .3) + 
+  labs(title="Dispersão do tempo em fila para cada servidor", x= "Servidor", y="Tempo em Fila(minutos)")
+
+ggplot(c3_t_fila, aes(servidor, resultado) ) +
+  geom_boxplot() +
+  geom_jitter()
+
+```
+
+
+#Gráfico com o tempo médio de espera em cada servidor de cada cenário nosso
+```{r}
+#Media do tempo de espera do servidor 1 nos cenarios
+server1.espera = geral %>%
+    select(cenario,replication,test,servidor,resultado) %>%
+    filter(test=="Waiting Time") %>%
+    group_by(cenario, servidor) %>%
+    summarise(media_t_espera = mean(resultado))
+  
+
+ggplot(server1.espera, aes(servidor, media_t_espera, fill = cenario)) + 
+  geom_bar(stat="identity", position = "dodge") + 
+  scale_fill_brewer(palette = "Set1") + 
+  labs(title="Tempo de espera nos servidores dos diferentes cenários", x= "Servidor", y="Tempo em fila(minutos)")
+
+
+```

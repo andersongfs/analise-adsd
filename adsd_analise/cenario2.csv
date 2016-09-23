@@ -1,0 +1,161 @@
+replication,test,servidor,resultado
+replication1,Wait Time Per Entity,Servidor 1,0.2506
+replication1,Wait Time Per Entity,Servidor 2,0.7443
+replication1,Wait Time Per Entity,Servidor 3,0.1938
+replication1,Wait Time Per Entity,Servidor 4,0.2395
+replication1,Waiting Time,Servidor 1.Queue,0.05452812
+replication1,Waiting Time,Servidor 2.Queue,0.3163
+replication1,Waiting Time,Servidor 3.Queue,0.01328619
+replication1,Waiting Time,Servidor 4.Queue,0.04174069
+replication1,Number Waiting,Servidor 1.Queue,0.05834509
+replication1,Number Waiting,Servidor 2.Queue,0.3132
+replication1,Number Waiting,Servidor 3.Queue,0.00265724
+replication1,Number Waiting,Servidor 4.Queue,0.03241860
+replication1,Instantaneous Utilization,Resource Server 1,0.2094
+replication1,Instantaneous Utilization,Resource Server 2,0.4194
+replication1,Instantaneous Utilization,Resource Server 3,0.03610396
+replication1,Instantaneous Utilization,Resource Server 4,0.1536
+replication2,Wait Time Per Entity,Servidor 1,0.2417
+replication2,Wait Time Per Entity,Servidor 2,0.7257
+replication2,Wait Time Per Entity,Servidor 3,0.1954
+replication2,Wait Time Per Entity,Servidor 4,0.2475
+replication2,Waiting Time,Servidor 1.Queue,0.04680915
+replication2,Waiting Time,Servidor 2.Queue,0.3150
+replication2,Waiting Time,Servidor 3.Queue,0.00397297
+replication2,Waiting Time,Servidor 4.Queue,0.02469006
+replication2,Number Waiting,Servidor 1.Queue,0.04524884
+replication2,Number Waiting,Servidor 2.Queue,0.2825
+replication2,Number Waiting,Servidor 3.Queue,0.00071514
+replication2,Number Waiting,Servidor 4.Queue,0.01769454
+replication2,Instantaneous Utilization,Resource Server 1,0.1884
+replication2,Instantaneous Utilization,Resource Server 2,0.3683
+replication2,Instantaneous Utilization,Resource Server 3,0.03445736
+replication2,Instantaneous Utilization,Resource Server 4,0.1597
+replication3,Wait Time Per Entity,Servidor 1,0.2498
+replication3,Wait Time Per Entity,Servidor 2,0.6361
+replication3,Wait Time Per Entity,Servidor 3,0.2793
+replication3,Wait Time Per Entity,Servidor 4,0.2167
+replication3,Waiting Time,Servidor 1.Queue,0.04748328
+replication3,Waiting Time,Servidor 2.Queue,0.2374
+replication3,Waiting Time,Servidor 3.Queue,0.01332736
+replication3,Waiting Time,Servidor 4.Queue,0.03014104
+replication3,Number Waiting,Servidor 1.Queue,0.05333955
+replication3,Number Waiting,Servidor 2.Queue,0.2390
+replication3,Number Waiting,Servidor 3.Queue,0.00288759
+replication3,Number Waiting,Servidor 4.Queue,0.02381142
+replication3,Instantaneous Utilization,Resource Server 1,0.2265
+replication3,Instantaneous Utilization,Resource Server 2,0.4014
+replication3,Instantaneous Utilization,Resource Server 3,0.05763354
+replication3,Instantaneous Utilization,Resource Server 4,0.1477
+replication4,Wait Time Per Entity,Servidor 1,0.2570
+replication4,Wait Time Per Entity,Servidor 2,0.6478
+replication4,Wait Time Per Entity,Servidor 3,0.1953
+replication4,Wait Time Per Entity,Servidor 4,0.2361
+replication4,Waiting Time,Servidor 1.Queue,0.05246462
+replication4,Waiting Time,Servidor 2.Queue,0.2520
+replication4,Waiting Time,Servidor 3.Queue,0.01121432
+replication4,Waiting Time,Servidor 4.Queue,0.03377842
+replication4,Number Waiting,Servidor 1.Queue,0.06645519
+replication4,Number Waiting,Servidor 2.Queue,0.2797
+replication4,Number Waiting,Servidor 3.Queue,0.00213072
+replication4,Number Waiting,Servidor 4.Queue,0.03107614
+replication4,Instantaneous Utilization,Resource Server 1,0.2591
+replication4,Instantaneous Utilization,Resource Server 2,0.4393
+replication4,Instantaneous Utilization,Resource Server 3,0.03496793
+replication4,Instantaneous Utilization,Resource Server 4,0.1869
+replication5,Wait Time Per Entity,Servidor 1,0.2250
+replication5,Wait Time Per Entity,Servidor 2,0.6854
+replication5,Wait Time Per Entity,Servidor 3,0.1730
+replication5,Wait Time Per Entity,Servidor 4,0.2233
+replication5,Waiting Time,Servidor 1.Queue,0.02699436
+replication5,Waiting Time,Servidor 2.Queue,0.2601
+replication5,Waiting Time,Servidor 3.Queue,0.00486620
+replication5,Waiting Time,Servidor 4.Queue,0.03821669
+replication5,Number Waiting,Servidor 1.Queue,0.02726431
+replication5,Number Waiting,Servidor 2.Queue,0.2428
+replication5,Number Waiting,Servidor 3.Queue,0.00097324
+replication5,Number Waiting,Servidor 4.Queue,0.02789818
+replication5,Instantaneous Utilization,Resource Server 1,0.2000
+replication5,Instantaneous Utilization,Resource Server 2,0.3947
+replication5,Instantaneous Utilization,Resource Server 3,0.03362072
+replication5,Instantaneous Utilization,Resource Server 4,0.1351
+replication6,Wait Time Per Entity,Servidor 1,0.2830
+replication6,Wait Time Per Entity,Servidor 2,0.5906
+replication6,Wait Time Per Entity,Servidor 3,0.1677
+replication6,Wait Time Per Entity,Servidor 4,0.2566
+replication6,Waiting Time,Servidor 1.Queue,0.06826817
+replication6,Waiting Time,Servidor 2.Queue,0.2014
+replication6,Waiting Time,Servidor 3.Queue,0.00448124
+replication6,Waiting Time,Servidor 4.Queue,0.05149845
+replication6,Number Waiting,Servidor 1.Queue,0.06940597
+replication6,Number Waiting,Servidor 2.Queue,0.1873
+replication6,Number Waiting,Servidor 3.Queue,0.00094106
+replication6,Number Waiting,Servidor 4.Queue,0.03707888
+replication6,Instantaneous Utilization,Resource Server 1,0.2183
+replication6,Instantaneous Utilization,Resource Server 2,0.3620
+replication6,Instantaneous Utilization,Resource Server 3,0.03426796
+replication6,Instantaneous Utilization,Resource Server 4,0.1477
+replication7,Wait Time Per Entity,Servidor 1,0.2362
+replication7,Wait Time Per Entity,Servidor 2,0.7114
+replication7,Wait Time Per Entity,Servidor 3,0.2093
+replication7,Wait Time Per Entity,Servidor 4,0.2317
+replication7,Waiting Time,Servidor 1.Queue,0.04887895
+replication7,Waiting Time,Servidor 2.Queue,0.3052
+replication7,Waiting Time,Servidor 3.Queue,0.00454228
+replication7,Waiting Time,Servidor 4.Queue,0.05099591
+replication7,Number Waiting,Servidor 1.Queue,0.05360392
+replication7,Number Waiting,Servidor 2.Queue,0.2993
+replication7,Number Waiting,Servidor 3.Queue,0.00093874
+replication7,Number Waiting,Servidor 4.Queue,0.03909686
+replication7,Instantaneous Utilization,Resource Server 1,0.2047
+replication7,Instantaneous Utilization,Resource Server 2,0.3961
+replication7,Instantaneous Utilization,Resource Server 3,0.04231103
+replication7,Instantaneous Utilization,Resource Server 4,0.1386
+replication8,Wait Time Per Entity,Servidor 1,0.2928
+replication8,Wait Time Per Entity,Servidor 2,0.8234
+replication8,Wait Time Per Entity,Servidor 3,0.2276
+replication8,Wait Time Per Entity,Servidor 4,0.2612
+replication8,Waiting Time,Servidor 1.Queue,0.08979368
+replication8,Waiting Time,Servidor 2.Queue,0.3569
+replication8,Waiting Time,Servidor 3.Queue,0.00873681
+replication8,Waiting Time,Servidor 4.Queue,0.05155534
+replication8,Number Waiting,Servidor 1.Queue,0.1089
+replication8,Number Waiting,Servidor 2.Queue,0.3851
+replication8,Number Waiting,Servidor 3.Queue,0.00200947
+replication8,Number Waiting,Servidor 4.Queue,0.04347834
+replication8,Instantaneous Utilization,Resource Server 1,0.2463
+replication8,Instantaneous Utilization,Resource Server 2,0.5011
+replication8,Instantaneous Utilization,Resource Server 3,0.05011200
+replication8,Instantaneous Utilization,Resource Server 4,0.1768
+replication9,Wait Time Per Entity,Servidor 1,0.2566
+replication9,Wait Time Per Entity,Servidor 2,0.6243
+replication9,Wait Time Per Entity,Servidor 3,0.2467
+replication9,Wait Time Per Entity,Servidor 4,0.2466
+replication9,Waiting Time,Servidor 1.Queue,0.04447335
+replication9,Waiting Time,Servidor 2.Queue,0.1976
+replication9,Waiting Time,Servidor 3.Queue,0.03192966
+replication9,Waiting Time,Servidor 4.Queue,0.03399972
+replication9,Number Waiting,Servidor 1.Queue,0.04491809
+replication9,Number Waiting,Servidor 2.Queue,0.1792
+replication9,Number Waiting,Servidor 3.Queue,0.00510875
+replication9,Number Waiting,Servidor 4.Queue,0.02538646
+replication9,Instantaneous Utilization,Resource Server 1,0.2142
+replication9,Instantaneous Utilization,Resource Server 2,0.3869
+replication9,Instantaneous Utilization,Resource Server 3,0.03435548
+replication9,Instantaneous Utilization,Resource Server 4,0.1588
+replication10,Wait Time Per Entity,Servidor 1,0.3311
+replication10,Wait Time Per Entity,Servidor 2,0.5238
+replication10,Wait Time Per Entity,Servidor 3,0.3081
+replication10,Wait Time Per Entity,Servidor 4,0.2128
+replication10,Waiting Time,Servidor 1.Queue,0.1087
+replication10,Waiting Time,Servidor 2.Queue,0.1350
+replication10,Waiting Time,Servidor 3.Queue,0.00997474
+replication10,Waiting Time,Servidor 4.Queue,0.02493499
+replication10,Number Waiting,Servidor 1.Queue,0.1287
+replication10,Number Waiting,Servidor 2.Queue,0.1426
+replication10,Number Waiting,Servidor 3.Queue,0.00216119
+replication10,Number Waiting,Servidor 4.Queue,0.02094539
+replication10,Instantaneous Utilization,Resource Server 1,0.2632
+replication10,Instantaneous Utilization,Resource Server 2,0.4109
+replication10,Instantaneous Utilization,Resource Server 3,0.06458417
+replication10,Instantaneous Utilization,Resource Server 4,0.1578
